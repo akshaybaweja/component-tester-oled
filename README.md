@@ -28,8 +28,8 @@
 |1|U1|TQFP32|ATMEGA328P-AU|IC MCU 8BIT 32KB FLASH 32TQFP|ATMEGA328P-AUR
 |1|U2|SOT23-3|LM4040|IC VREF SHUNT 2% SOT23-3|LM4040EIM3X-2.5/NOPB
 |1|X1|TSX-3225|16MHz|CRYSTAL 16.00 MHZ 9PF SMD|TSX-3225 16.0000MF09Z-AC0|
-|1|J1|CUI_UJC-HP-3-SMT-TR|USB C (Power Only)|
-|1|TEST|TACTILE_SWITCH_PTH_12MM|-|USB JACK, C TYPE, POWER ONLY, 6|UJC-HP-3-SMT-TR|
+|1|J1|CUI_UJC-HP-3-SMT-TR|USB C (Power Only)|USB JACK, C TYPE, POWER ONLY, 6|UJC-HP-3-SMT-TR
+|1|TEST|12MM PTH TACTILE SWITCH|-|12MM TACTILE SWITCH THROUGH HOLE|
 |1|DISPLAY|-|-|OLED 0.96" 4 PIN I2C Interface|[Amazon](https://www.amazon.com/dp/B06XRBYJR8)|
 |3|1, 2, 3|2MM BANANA JACK FEMALE|-|-|[Amazon](https://www.amazon.com/Tegg-Banana-Binding-Terminal-Connector/dp/B07GSLPCBV/)|
 
@@ -50,4 +50,5 @@ Open Terminal/ Command Prompt in your system, navigate to folder's location with
 ---
 
 ### References
-[Schematic](./Schematic.pdf)
+- [Schematic](./Schematic.pdf)
+- [Original Transistor Tester](https://www.mikrocontroller.net/articles/AVR_Transistortester)
