@@ -1,4 +1,7 @@
-# Component Tester OLED
+# Component Tester OLED (Keychain Version)
+
+![TOP PCB](./images/top.png)
+![BOTTOM PCB](./images/bottom.png)
 
 ## Sending PCBs for fabrication
 
@@ -33,19 +36,28 @@
 |1|DISPLAY|-|-|OLED 0.96" 4 PIN I2C Interface|[Amazon](https://www.amazon.com/dp/B06XRBYJR8)|
 |3|1, 2, 3|2MM BANANA JACK FEMALE|-|-|[Amazon](https://www.amazon.com/Tegg-Banana-Binding-Terminal-Connector/dp/B07GSLPCBV/)|
 
-## Installation
+## Uploading Firmware
+
+### Hardware Setup 
+
+Using a USBasp programmer connect it to the ICSP Header on the board. Refer the following pinout for connections -
+
+![ICSP](./images/ICSP.png)
+> PCB Bottom Side
+
+### Software Insrallation
 
 >**NOTE:** AVRDUDE must be installed in your computer in order for the following instructions to work.
 
 Open Terminal/ Command Prompt in your system, navigate to folder's location with above files and run the following commands -
 
-### Uploading the .HEX file and .EEP file to MCU
+#### Uploading the .HEX file and .EEP file to MCU
 
 ```
 avrdude -c usbasp -B 20  -p m328p -P usb -U flash:w:./TransistorTester.hex:a -U eeprom:w:./TransistorTester.eep:a
 ```
 
-### Setting the FUSES
+#### Setting the FUSES
 
 ```
 avrdude -c usbasp -B 200  -p m328p -P usb  -U lfuse:w:0xe2:m -U hfuse:w:0xd9:m -U efuse:w:0xfc:m
