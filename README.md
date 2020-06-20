@@ -4,7 +4,7 @@
 
 1. Download the [Gerber Files](GERBER_FILES.zip)
 2. Goto [PCBWAY](https://www.pcbway.com/QuickOrderOnline.aspx) for sending files for fabrication
-3. Upload [GERBER_FILES.zip]() using the **+Add Gerber File** option
+3. Upload **GERBER_FILES.zip** using the **+Add Gerber File** option
 ![](./images/upload.png)
 4. Select Quantity of PCBs
 5. Select your desired *soldermask color*.
