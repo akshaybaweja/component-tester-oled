@@ -45,7 +45,7 @@ Using a USBasp programmer connect it to the ICSP Header on the board. Refer the 
 ![ICSP](./images/ICSP.png)
 > PCB Bottom Side
 
-### Software Insrallation
+### Software Installation
 
 >**NOTE:** AVRDUDE must be installed in your computer in order for the following instructions to work.
 
