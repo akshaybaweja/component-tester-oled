@@ -16,7 +16,7 @@ make all
 ```
 4. Now connect your component tester to PC via USBasp Programmer
 ```
-make fused
+make fuses
 ```
 
 ```
